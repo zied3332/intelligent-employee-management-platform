@@ -1,62 +1,84 @@
 # Intelligent Employee Management Platform
 
-A production-style full-stack HR management platform developed as part of the Engineering Program at Esprit School of Engineering (2025–2026).
+A production-style full-stack HR management platform developed as part of the Engineering Program at **Esprit School of Engineering** (2025–2026).
 
-The platform enables HR teams, managers, and employees to efficiently manage organizational data, track activities, and leverage AI-powered recommendations for smarter workforce management.
-
----
-
-## Project Architecture
-
-This project is organized into three independent repositories:
-
-| Repository | Description |
-|------------|-------------|
-| Frontend | React + TypeScript application |
-| Backend | NestJS REST API |
-| AI Service | FastAPI service providing machine learning features |
+The platform enables HR teams, managers, and employees to efficiently manage organizational data, streamline HR workflows, monitor employee activities, and leverage AI-powered recommendations for smarter workforce management.
 
 ---
 
-## Features
+## Overview
 
-### Authentication & Authorization
+The system follows a modular architecture composed of three independent services:
+
+- **Frontend** – React application providing role-based dashboards and user interfaces.
+- **Backend** – NestJS REST API responsible for authentication, business logic, and data management.
+- **AI Service** – FastAPI microservice providing intelligent employee recommendations and machine learning capabilities.
+
+---
+
+# Project Repositories
+
+| Component | Repository | Description |
+|-----------|------------|-------------|
+| Frontend | https://github.com/YOUR_USERNAME/frontend-repository | React + TypeScript application with responsive dashboards for HR, Managers, and Employees |
+| Backend | https://github.com/YOUR_USERNAME/backend-repository | NestJS REST API with JWT authentication, MongoDB, RBAC, and business logic |
+| AI Service | https://github.com/YOUR_USERNAME/ai-repository | FastAPI microservice providing employee similarity, clustering, and recommendation services |
+
+---
+
+# Features
+
+## Authentication & Security
 
 - JWT Authentication
 - Role-Based Access Control (HR, Manager, Employee)
-- Secure API communication
+- Secure REST API
+- Protected routes
+- Authentication middleware
 
-### Employee Management
+---
 
-- Employee profiles
-- Team management
+## Employee Management
+
+- Employee profile management
 - Department management
 - User administration
+- Team management
+- Employee directory
 
-### Activity Management
+---
 
-- Activity tracking
-- Employee history
+## Activity Management
+
+- Employee activity tracking
+- Activity history
 - Team collaboration
+- Performance monitoring
 
-### AI Features
+---
+
+## AI Features
 
 - Employee recommendation system
-- Similar employee search
-- Clustering-based analysis
-- Machine learning services
+- Employee similarity search
+- Clustering-based employee segmentation
+- Machine learning integration
+- Intelligent recruitment assistance
 
-### Utilities
+---
+
+## Utilities
 
 - Excel import/export
 - Responsive dashboards
 - RESTful API architecture
+- Modular service architecture
 
 ---
 
-## Tech Stack
+# Tech Stack
 
-### Frontend
+## Frontend
 
 - React
 - TypeScript
@@ -66,68 +88,117 @@ This project is organized into three independent repositories:
 - Tailwind CSS
 - Axios
 
-### Backend
+---
+
+## Backend
 
 - NestJS
 - MongoDB
 - Mongoose
 - JWT Authentication
 - REST API
+- Docker
 
-### AI Service
+---
+
+## AI Service
 
 - Python
 - FastAPI
 - Scikit-learn
 - Pandas
 - NumPy
+- Jupyter Notebook
 
 ---
 
-## System Architecture
+# System Architecture
 
 ```text
-                React Frontend
-                       │
-                       │ REST API
-                       ▼
-              NestJS Backend API
-                 │           │
-                 │           │
-                 ▼           ▼
-            MongoDB      FastAPI AI Service
-                               │
-                               ▼
-                     Machine Learning Models
+                     +-----------------------+
+                     |   React Frontend      |
+                     +-----------+-----------+
+                                 |
+                                 | REST API
+                                 |
+                     +-----------v-----------+
+                     |    NestJS Backend     |
+                     +-----------+-----------+
+                                 |
+                  +--------------+--------------+
+                  |                             |
+                  |                             |
+        +---------v---------+        +----------v----------+
+        |     MongoDB       |        |  FastAPI AI Service |
+        +-------------------+        +----------+----------+
+                                                |
+                                                |
+                                       Machine Learning
+                                            Models
 ```
 
 ---
 
-## Learning Objectives
+# Repository Structure
 
-This project demonstrates experience with:
+```
+Intelligent Employee Management Platform
+│
+├── Frontend
+│   ├── React
+│   ├── TypeScript
+│   ├── Material UI
+│   └── Tailwind CSS
+│
+├── Backend
+│   ├── NestJS
+│   ├── MongoDB
+│   ├── JWT Authentication
+│   └── REST API
+│
+└── AI Service
+    ├── FastAPI
+    ├── Scikit-learn
+    ├── Pandas
+    ├── NumPy
+    └── Machine Learning Models
+```
+
+---
+
+# Learning Outcomes
+
+This project demonstrates practical experience with:
 
 - Full-stack web development
-- REST API design
+- REST API development
 - Authentication & Authorization
+- Role-Based Access Control
+- Modular software architecture
 - AI service integration
-- Modular backend architecture
-- Team collaboration using Git
+- Machine learning workflows
+- Database design
 - Responsive UI development
-- Machine learning integration
+- Team collaboration using Git
 
 ---
 
-## Academic Context
+# Academic Context
 
-Developed during the Engineering Program at **Esprit School of Engineering** (Tunisia) as a collaborative software engineering project.
+This project was developed during the **Engineering Program at Esprit School of Engineering (Tunisia)** as a collaborative software engineering project.
 
 ---
 
-## Contributors
+# Contributors
 
 - Zied Alimi
 - Ahlem Bounasri
 - Yasmine Ben Abdelali
 - Malek Fridhi
 - Mohamed Nour Slimi
+
+---
+
+# License
+
+This repository is provided for educational and portfolio purposes.

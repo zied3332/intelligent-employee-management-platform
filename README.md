@@ -20,9 +20,9 @@ The system follows a modular architecture composed of three independent services
 
 | Component | Repository | Description |
 |-----------|------------|-------------|
-| Frontend | [https://github.com/YOUR_USERNAME/frontend-repository](https://github.com/zied3332/4TWIN2-2026-WeebGeeks-FrontEnd.git) | React + TypeScript application with responsive dashboards for HR, Managers, and Employees |
-| Backend | [https://github.com/YOUR_USERNAME/backend-repository](https://github.com/zied3332/Esprit-PIDEV-Backend-4TWIN2-2026-WeebGeeks.git) | NestJS REST API with JWT authentication, MongoDB, RBAC, and business logic |
-| AI Service | [https://github.com/YOUR_USERNAME/ai-repository](https://github.com/zied3332/4TWIN2-2026-WeebGeeks-AI.git) | FastAPI microservice providing employee similarity, clustering, and recommendation services |
+| Frontend | [https://github.com/YOUR_USERNAME/frontend-repository]([https://github.com/zied3332/4TWIN2-2026-WeebGeeks-FrontEnd.git](https://github.com/zied3332/4TWIN2-2026-WeebGeeks-FrontEnd)) | React + TypeScript application with responsive dashboards for HR, Managers, and Employees |
+| Backend | [https://github.com/YOUR_USERNAME/backend-repository]([https://github.com/zied3332/Esprit-PIDEV-Backend-4TWIN2-2026-WeebGeeks.git](https://github.com/Malek-Fridhi/Esprit-PIDEV-4TWIN2-2026-WeebGeeks)) | NestJS REST API with JWT authentication, MongoDB, RBAC, and business logic |
+| AI Service | [https://github.com/YOUR_USERNAME/ai-repository]([https://github.com/zied3332/4TWIN2-2026-WeebGeeks-AI.git](https://github.com/zied3332/4TWIN2-2026-WeebGeeks-AI)) | FastAPI microservice providing employee similarity, clustering, and recommendation services |
 
 ---
 
